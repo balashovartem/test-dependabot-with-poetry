@@ -12,5 +12,5 @@ arrow = "^0.10.0"
 black = {version = "==21.8b0", allows-prereleases = true}
 
 [build-system]
-requires = ["poetry>=1.2.0"]
+requires = ["poetry>=1.0.0"]
 build-backend = "poetry.masonry.api"
