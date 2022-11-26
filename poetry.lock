@@ -1,13 +1,13 @@
 [[package]]
 name = "arrow"
-version = "0.10.0"
-description = "Better dates and times for Python"
+version = "1.2.3"
+description = "Better dates & times for Python"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">=3.6"
 
 [package.dependencies]
-python-dateutil = "*"
+python-dateutil = ">=2.7.0"
 
 [[package]]
 name = "black"
@@ -125,12 +125,13 @@ python-versions = "*"
 
 [metadata]
 lock-version = "1.1"
-python-versions = "3.9.6"
-content-hash = "695de13f5a3810e9280fb6597690991c3785185939459e96fa22857a5ba53dd2"
+python-versions = "~3.9"
+content-hash = "23e91babde3ac01d0806a5da86eb89737f3fd263e00c89149a51167f26478549"
 
 [metadata.files]
 arrow = [
-    {file = "arrow-0.10.0.tar.gz", hash = "sha256:805906f09445afc1f0fc80187db8fe07670e3b25cdafa09b8d8ac264a8c0c722"},
+    {file = "arrow-1.2.3-py3-none-any.whl", hash = "sha256:5a49ab92e3b7b71d96cd6bfcc4df14efefc9dfa96ea19045815914a6ab6b1fe2"},
+    {file = "arrow-1.2.3.tar.gz", hash = "sha256:3934b30ca1b9f292376d9db15b19446088d12ec58629bc3f0da28fd55fb633a1"},
 ]
 black = [
     {file = "black-21.8b0-py3-none-any.whl", hash = "sha256:2a0f9a8c2b2a60dbcf1ccb058842fb22bdbbcb2f32c6cc02d9578f90b92ce8b7"},
